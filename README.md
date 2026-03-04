@@ -21,3 +21,6 @@ Procedo a la documentación de la Operación Doble Nodo
 <img width="982" height="415" alt="imagen" src="https://github.com/user-attachments/assets/3e60c0b1-50b3-4b4f-9421-ee1c2bf308d5" />
 <h2>FASE 2 - VLANs, DHCP por VLAN y Router-on-a-Stick</h2>
 <h3>Hito 2.1 - Configuración del Switch 2960</h3>
+<h3>Hito 2.2 - Router-on-a-Stick</h3>
+<img width="604" height="398" alt="imagen" src="https://github.com/user-attachments/assets/7adf722f-d5a3-4993-8fad-4d7c61acc4c6" />
+Fue preciso cambiar el puerto de FastEthernet0/0/0 a GigabitEthernet0/0 para que pudiera hacer 'no ip address'.
