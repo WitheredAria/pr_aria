@@ -52,3 +52,9 @@ Fue necesario cambiar el puerto de FastEthernet0/0/1 a GigabitEthernet0/1 para p
 <br>
 <img width="436" height="235" alt="imagen" src="https://github.com/user-attachments/assets/64b4af11-5c82-4ce3-b09b-e8fa92ba372d" />
 <h3>Hito 3.2 - Rutas estáticas inter-red</h3>
+<img width="416" height="84" alt="imagen" src="https://github.com/user-attachments/assets/feb0fc08-4ff6-4d03-9f17-2d2e41d60ea5" />
+<h3>Hito 3.3 - DNS cruzado</h3>
+<img width="463" height="285" alt="imagen" src="https://github.com/user-attachments/assets/2fb4dc23-70ac-4607-9348-4b0d43ec0211" />
+<br>
+<img width="659" height="397" alt="imagen" src="https://github.com/user-attachments/assets/0d660167-dc21-4fe7-afa1-f94c84961948" />
+<br>
