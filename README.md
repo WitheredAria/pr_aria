@@ -58,3 +58,8 @@ Fue necesario cambiar el puerto de FastEthernet0/0/1 a GigabitEthernet0/1 para p
 <br>
 <img width="659" height="397" alt="imagen" src="https://github.com/user-attachments/assets/0d660167-dc21-4fe7-afa1-f94c84961948" />
 <br>
+<br>
+<h2>FASE 4 - ACLs extendidas y seguridad perimetral</h2>
+<h3>Hito 4.1 - Implementación de ACLs</h3>
+<img width="520" height="171" alt="imagen" src="https://github.com/user-attachments/assets/4c874e75-8606-41c6-8cc2-e443b518aceb" />
+<h3>Hito 4.2 - Tabla de verificación obligatoria</h3>
