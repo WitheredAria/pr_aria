@@ -44,6 +44,8 @@ Desde Motion Detector hacia Gateway 10.10.20.1
 <br>
 Desde Motion Detector hacia Thingspeak-A
 <br>
+<img width="319" height="62" alt="imagen" src="https://github.com/user-attachments/assets/7aa15fc8-3e56-4f31-b843-c12b8840cc0a" />
+<br>
 <h2>FASE 3 - NAT, DNS cruzado y conectividad inter-red</h2>
 <h3>Hito 3.1 - Configuración NAT en ambos routers</h3>
 <img width="596" height="412" alt="imagen" src="https://github.com/user-attachments/assets/eb42dab7-a63c-4bc3-997f-843ac87cdc2e" />
@@ -52,14 +54,21 @@ Fue necesario cambiar el puerto de FastEthernet0/0/1 a GigabitEthernet0/1 para p
 <br>
 <img width="436" height="235" alt="imagen" src="https://github.com/user-attachments/assets/64b4af11-5c82-4ce3-b09b-e8fa92ba372d" />
 <h3>Hito 3.2 - Rutas estáticas inter-red</h3>
-<img width="416" height="84" alt="imagen" src="https://github.com/user-attachments/assets/feb0fc08-4ff6-4d03-9f17-2d2e41d60ea5" />
+<img width="454" height="273" alt="imagen" src="https://github.com/user-attachments/assets/9d584e5a-75ce-4c5e-a87a-0806c5ea90b0" />
+<br>
+<img width="368" height="29" alt="imagen" src="https://github.com/user-attachments/assets/25e5dd14-4753-41e6-a3cf-a611a5ff0a47" />
+<br>
+Fue necesario darle una IP estática a GigabitEthernet0/2 en ambas instancias para que pudiera realizar el enrutamiento estático.
 <h3>Hito 3.3 - DNS cruzado</h3>
 <img width="463" height="285" alt="imagen" src="https://github.com/user-attachments/assets/2fb4dc23-70ac-4607-9348-4b0d43ec0211" />
 <br>
 <img width="659" height="397" alt="imagen" src="https://github.com/user-attachments/assets/0d660167-dc21-4fe7-afa1-f94c84961948" />
 <br>
+<b>5 de marzo, 2026</b>
 <br>
+Hizo falta que volviera a empezar el ejercicio para poder tener las ideas más claras y ordenadas. El PC de la isntancia A finalmente puede establecer conexión con el servidor de la instancia B.
+<br>
+<img width="711" height="340" alt="imagen" src="https://github.com/user-attachments/assets/62f4a424-eb17-4047-b172-be1e72aa1d9e" />
 <h2>FASE 4 - ACLs extendidas y seguridad perimetral</h2>
 <h3>Hito 4.1 - Implementación de ACLs</h3>
-<img width="520" height="171" alt="imagen" src="https://github.com/user-attachments/assets/4c874e75-8606-41c6-8cc2-e443b518aceb" />
 <h3>Hito 4.2 - Tabla de verificación obligatoria</h3>
