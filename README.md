@@ -70,5 +70,7 @@ Hizo falta que volviera a empezar el ejercicio para poder tener las ideas más c
 <br>
 <img width="711" height="340" alt="imagen" src="https://github.com/user-attachments/assets/62f4a424-eb17-4047-b172-be1e72aa1d9e" />
 <h2>FASE 4 - ACLs extendidas y seguridad perimetral</h2>
+<b>10 de marzo, 2026</b>
 <h3>Hito 4.1 - Implementación de ACLs</h3>
+<img width="516" height="168" alt="image" src="https://github.com/user-attachments/assets/c11e91c3-2738-4c8b-a3a7-74db05c09537" />
 <h3>Hito 4.2 - Tabla de verificación obligatoria</h3>
