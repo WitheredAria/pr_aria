@@ -73,4 +73,12 @@ Hizo falta que volviera a empezar el ejercicio para poder tener las ideas más c
 <b>10 de marzo, 2026</b>
 <h3>Hito 4.1 - Implementación de ACLs</h3>
 <img width="516" height="168" alt="image" src="https://github.com/user-attachments/assets/c11e91c3-2738-4c8b-a3a7-74db05c09537" />
+<br>
+<b>12 de marzo, 2026</b>
+<br>
+En el momento en el que he eliminado las ACLs de esta fase, PC-A puede hacerle ping sin errores a Thingspeak-B. Trataré de seguir los pasos dados por Nasser y descubrir la causa de este error.
+<br>
+<img width="515" height="291" alt="imagen" src="https://github.com/user-attachments/assets/db67c186-7660-413e-af96-1552052c9796" />
+<br>
+El error parecía ser que faltaban por aplicar reglas en el enunciado original del ejercicio.
 <h3>Hito 4.2 - Tabla de verificación obligatoria</h3>
