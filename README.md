@@ -82,3 +82,65 @@ En el momento en el que he eliminado las ACLs de esta fase, PC-A puede hacerle p
 <br>
 El error parecía ser que faltaban por aplicar reglas en el enunciado original del ejercicio.
 <h3>Hito 4.2 - Tabla de verificación obligatoria</h3>
+Documentción de los pings:
+<br>
+<b>P1: Desde PC-A a Thingspeak-B (PASS)</b>
+<br>
+<img width="387" height="183" alt="imagen" src="https://github.com/user-attachments/assets/0de68d3a-4dbd-4229-b04d-8d5c8dfe01a4" />
+<br>
+<b>P2: Desde PC-A a Motion-B (FAIL)</b>
+<br>
+<img width="398" height="176" alt="imagen" src="https://github.com/user-attachments/assets/d89dcb4e-3499-4cf2-8787-f01aea16134a" />
+<br>
+<b>P3: Desde Motion-A a Siren-B (PASS)</b>
+<br>
+<img width="367" height="88" alt="imagen" src="https://github.com/user-attachments/assets/32bf02a8-80e7-4e23-bf7e-ccd2e212e56e" />
+<br>
+<b>P4: Desde Motion-A a PC-B (FAIL)</b>
+<br>
+<img width="367" height="88" alt="imagen" src="https://github.com/user-attachments/assets/7648308f-1dae-4589-8cfc-d0a408e28636" />
+<br>
+<b>P5: Desde Thingspeak-A a Thingspeak-B (PASS)</b>
+<br>
+<img width="377" height="195" alt="imagen" src="https://github.com/user-attachments/assets/febca298-30c1-47fa-ae28-1091ce787565" />
+<br>
+<b>P6: Desde PC-B a Thingspeak-A (PASS)</b>
+<br>
+<img width="377" height="195" alt="imagen" src="https://github.com/user-attachments/assets/cadf2993-da64-49ab-a76c-743a18f667ff" />
+<br>
+<b>P7: Desde PC-B a Siren-A (FAIL)</b>
+<br>
+<img width="394" height="158" alt="imagen" src="https://github.com/user-attachments/assets/47b331c1-0cd3-4cde-a9f3-e1179e929d13" />
+<br>
+<b>P8: Desde Siren-B a Motion-A (PASS)</b>
+<br>
+<img width="371" height="55" alt="imagen" src="https://github.com/user-attachments/assets/51f6fd4d-9377-44d0-993d-ead3b7f555ab" />
+<h2>FASE 5 - Autorización IoT cruzada y reflexión crítica</h2>
+<h3>Hito 5.1 - Crear cuenta en los servidores IoT</h3>
+<img width="630" height="234" alt="imagen" src="https://github.com/user-attachments/assets/84c27034-4c81-4d2b-a9b5-beeb629a99d7" />
+<h3>Hito 5.2 - Registrar los dispositivos con la estrategia sensores/actuadores</h3>
+<img width="446" height="322" alt="imagen" src="https://github.com/user-attachments/assets/2a2cb868-e6fd-4beb-b4ce-b69522e55ced" />
+<img width="446" height="322" alt="imagen" src="https://github.com/user-attachments/assets/1bafddfd-b630-4d59-81e2-830e990222c9" />
+<br>
+<img width="624" height="298" alt="imagen" src="https://github.com/user-attachments/assets/2096a934-3036-4ff3-95bf-3f73603d9844" />
+<h3>Hito 5.3 - Configurar las condiciones de automatización</h3>
+<img width="623" height="241" alt="imagen" src="https://github.com/user-attachments/assets/0a0d8dda-bed3-4dd8-af70-e9d2bc04ea5a" />
+<br>
+<img width="623" height="241" alt="imagen" src="https://github.com/user-attachments/assets/0066be9d-ffa2-422b-bb8b-4e1d000f7c14" />
+<h3>Hito 5.4 - Verificar las condiciones</h3>
+Motion-A activa Siren-B
+<br>
+<img width="1288" height="421" alt="imagen" src="https://github.com/user-attachments/assets/963d6c6c-7df8-43a0-ab87-0aac9b396573" />
+<br>
+Door-B activa Siren-A
+<br>
+<img width="1288" height="421" alt="imagen" src="https://github.com/user-attachments/assets/aa75e990-b581-448c-b152-4c5eb545a418" />
+<h2>Preguntas de reflexión críticas</h2>
+<h3>Pregunta A - El fallo silecioso</h3>
+<b>La COND-1 depende de que Thingspeak-A pueda alcanzar en red a Siren-B. Describe exactamente la ruta de paquetes que sigue la orden de activación: interfaz de salida de Thingspeak-A, gateway, router-on-a-stick, subinterfaz de salida, ruta estática, nube multiusuario, router-B, y llegada a Siren-B. Identifica los dos puntos donde las ACLs de la Fase 4 podrían interrumpir esta comunicación y explica porqué no lo hacen (o si lo hacen, cómo lo arreglaste).</b>
+<h3>Pregunta B - Asimetría del NAT</h3>
+<b>Explicaste en la Fase 3 porqué la ACL de NAT debía ser más restrictiva de lo habitual. Ahora que tienes las ACLs de la Fase 4 activas también, ¿puede existir una condición en la que el tráfico de retorno de un ping inter-casa sea bloqueado por la ACL de NAT aunque la ACL de seguridad lo permitiría? Justifica con un ejemplo concreto usando IPs reales de tu configuración.</b>
+<h3>Pregunta C- Redundancia sin hardware adicional</h3>
+<b>Si el servidor Thingspeak-A cae, las condiciones COND-3 y COND-4 siguen funcionando, pero COND-1 y COND-2 dejan de hacerlo. Propone una arquitectura modificada usando ÚNICAMENTE los elementos ya disponibles en Packet Tracer (sin añadir servidores nuevos) que permita que TODAS las condiciones sigan funcionando si cualquiera de los dos servidores Thingspeak falla. Describe los cambios de configuración necesarios.</b>
+<h3>Pregunta D - La pregunta trampa</h3>
+<b>En el hito P8 de la Fase 4, el ping de Siren-B a Motion-A pasa. Pero si activas la condición COND-1 (que hace que Thingspeak-A mande una orden a Siren-B), el tráfico de orden va de 10.10.10.2 hacia 10.20.20.X. Comprueba si la ACL SALIDA-HACIA-B en Router-A permite este tráfico. Si no lo permite, la condición falla silenciosamente. Analiza la ACL línea a línea y determina si es necesario añadir un a regla adicional y cuál sería exactamente</b>
