@@ -144,3 +144,10 @@ Door-B activa Siren-A
 <b>Si el servidor Thingspeak-A cae, las condiciones COND-3 y COND-4 siguen funcionando, pero COND-1 y COND-2 dejan de hacerlo. Propone una arquitectura modificada usando ÚNICAMENTE los elementos ya disponibles en Packet Tracer (sin añadir servidores nuevos) que permita que TODAS las condiciones sigan funcionando si cualquiera de los dos servidores Thingspeak falla. Describe los cambios de configuración necesarios.</b>
 <h3>Pregunta D - La pregunta trampa</h3>
 <b>En el hito P8 de la Fase 4, el ping de Siren-B a Motion-A pasa. Pero si activas la condición COND-1 (que hace que Thingspeak-A mande una orden a Siren-B), el tráfico de orden va de 10.10.10.2 hacia 10.20.20.X. Comprueba si la ACL SALIDA-HACIA-B en Router-A permite este tráfico. Si no lo permite, la condición falla silenciosamente. Analiza la ACL línea a línea y determina si es necesario añadir un a regla adicional y cuál sería exactamente</b>
+<b>13 de marzo, 2026</b>
+<br>
+Estuve estudiando usando un curso de JS en Codecademy, ya que tuve problemas para iniciar sesión en OpenWebinars.
+<br>
+<b>16 de marzo, 2026</b>
+<br>
+Pude iniciar sesión en OpenWebinars y comenzar el curso de fundamentos de JS. Una vez lo terminé, pasaré al de especialización sobre asincronía, prototipos y clases.
