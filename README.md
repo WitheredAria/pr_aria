@@ -151,3 +151,7 @@ Estuve estudiando usando un curso de JS en Codecademy, ya que tuve problemas par
 <b>16 de marzo, 2026</b>
 <br>
 Pude iniciar sesión en OpenWebinars y comenzar el curso de fundamentos de JS. Una vez lo terminé, pasaré al de especialización sobre asincronía, prototipos y clases.
+<b>17 de marzo, 2026</b>
+Continué con el curso de fundamentos de JavaScript. Me queda la mitad del curso.
+<b>18 de marzo, 2026</b>
+Seguí hasta terminar el curso.
