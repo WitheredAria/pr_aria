@@ -154,4 +154,6 @@ Pude iniciar sesión en OpenWebinars y comenzar el curso de fundamentos de JS. U
 <b>17 de marzo, 2026</b>
 Continué con el curso de fundamentos de JavaScript. Me queda la mitad del curso.
 <b>18 de marzo, 2026</b>
-Seguí hasta terminar el curso.
+Seguí hasta terminar el curso. Conseguí mi certificado y lo publiqué en mi perfil de LinkedIn.
+<b>19 de marzo, 2026</b>
+Empecé el curso de Especialización de JavaScript: Asincronía, Prototipos y Clases.
