@@ -1,3 +1,5 @@
+// Estos son comandos que se pueden ejecutar en la consola del navegador,
+// haciendo clic derecho en cualquier parte y seleccionando "Inspeccionar".
 window.console.log("Hola.");
 window.alert("Hola.");
 window.print();
