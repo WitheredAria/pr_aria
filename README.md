@@ -157,3 +157,5 @@ Continué con el curso de fundamentos de JavaScript. Me queda la mitad del curso
 Seguí hasta terminar el curso. Conseguí mi certificado y lo publiqué en mi perfil de LinkedIn.
 <b>19 de marzo, 2026</b>
 Empecé el curso de Especialización de JavaScript: Asincronía, Prototipos y Clases.
+<b>20 de marzo, 2026</b>
+Continué el curso hasta llegar al segundo tema.
