@@ -167,3 +167,7 @@ Empecé el curso de Especialización de JavaScript: Asincronía, Prototipos y Cl
 <b>20 de marzo, 2026</b>
 <br>
 Continué el curso hasta llegar al segundo tema.
+<br>
+<b>24 de marzo, 2026</b>
+<br>
+Seguí con el curso hasta que solo me quedó un tema. Me he marchado de la empresa una hora antes de lo previsto debido a la alerta por lluvias a petición de Nasser.
