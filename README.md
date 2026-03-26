@@ -193,7 +193,7 @@ En el área de atención integral existe un proyecto de promoción de automonía
 </ul>
 De esos servicios, los profesionales tiene que hacer unos registros de los usuarios que atienden a estos servicios y qué hacen. Han estado trabajando con hojas de cálculos hasta el momento, donde se anota qué servicio ha recibido y la fecha.
 <br>
-Lo que nos han pedido es:
+<h3>Lo que nos han pedido es:</h3>
 <br>
 <ul>
   <li>Registrar los datos del número de servicios que ha realizado cada profesional y el que ha recibido cada persona. Se necesita de manera rápida y eficiente consultar el número de horas mensuales.</li>
@@ -201,7 +201,7 @@ Lo que nos han pedido es:
 </ul>
 Mientras que mi compañero se ocupará del backend, <b>yo me centraré en el frontend</b>.
 <br>
-Yo debo hacer:
+<h3>Yo debo hacer:</h3>
 <ul>
   <li>Una interfaz de formulario para seleccionar el servicio, la actividad.</li>
   <li>Guardar un listado con las actividades de cada proyecto.</li>
