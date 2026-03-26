@@ -191,7 +191,6 @@ En el área de atención integral existe un proyecto de promoción de automonía
   <li>Apoyo psicológico</li>
   <li>Promoción de la salud</li>
 </ul>
-<br>
 De esos servicios, los profesionales tiene que hacer unos registros de los usuarios que atienden a estos servicios y qué hacen. Han estado trabajando con hojas de cálculos hasta el momento, donde se anota qué servicio ha recibido y la fecha.
 <br>
 Lo que nos han pedido es:
@@ -200,5 +199,4 @@ Lo que nos han pedido es:
   <li>Registrar los datos del número de servicios que ha realizado cada profesional y el que ha recibido cada persona. Se necesita de manera rápida y eficiente consultar el número de horas mensuales.</li>
   <li>Registrar el número y el tipo de talleres, quién los impartió y quiénes lo recibieron del servicio de promoción de la salud</li>
 </ul>
-<br>
 Mientras que mi compañero se ocupará del backend, <b>yo me centraré en el frontend</b>.
