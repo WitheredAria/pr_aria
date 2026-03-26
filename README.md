@@ -175,3 +175,7 @@ Seguí con el curso hasta que solo me quedaron dos tema. Me he marchado de la em
 <b>25 de marzo, 2026</b>
 <br>
 Continué hasta llegar a la mitad del último tema del curso de especialización.
+<br>
+<b>26 de marzo, 2026</b>
+<br>
+Terminé el curso de especialización de JavaScript.
