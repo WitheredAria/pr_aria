@@ -200,3 +200,9 @@ Lo que nos han pedido es:
   <li>Registrar el número y el tipo de talleres, quién los impartió y quiénes lo recibieron del servicio de promoción de la salud</li>
 </ul>
 Mientras que mi compañero se ocupará del backend, <b>yo me centraré en el frontend</b>.
+<br>
+Yo debo hacer:
+<ul>
+  <li>Una interfaz de formulario para seleccionar el servicio, la actividad.</li>
+  <li>Guardar un listado con las actividades de cada proyecto.</li>
+</ul>
