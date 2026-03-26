@@ -185,11 +185,11 @@ Hemos comenzado el planning del proyecto que vamos a realizar. Esto es lo que va
 En el área de atención integral existe un proyecto de promoción de automonía integral.
 <br>
 <li>
-  <ol>Asistencia personal</ol>
-  <ol>Trabajo social</ol>
-  <ol>Fisioterapia</ol>
-  <ol>Apoyo psicológico</ol>
-  <ol>Promoción de la salud</ol>
+  <ul>Asistencia personal</ul>
+  <ul>Trabajo social</ul>
+  <ul>Fisioterapia</ul>
+  <ul>Apoyo psicológico</ul>
+  <ul>Promoción de la salud</ul>
 </li>
 <br>
 De esos servicios, los profesionales tiene que hacer unos registros de los usuarios que atienden a estos servicios y qué hacen. Han estado trabajando con hojas de cálculos hasta el momento, donde se anota qué servicio ha recibido y la fecha.
@@ -197,6 +197,6 @@ De esos servicios, los profesionales tiene que hacer unos registros de los usuar
 Lo que nos han pedido es:
 <br>
 <li>
-  <ol>Registrar los datos del número de servicios que ha realizado cada profesional y el que ha recibido cada persona. Se necesita de manera rápida y eficiente consultar el número de horas mensuales.</ol>
-  <ol>Registrar el número y el tipo de talleres, quién los impartió y quiénes lo recibieron del servicio de promoción de la salud</ol>
+  <ul>Registrar los datos del número de servicios que ha realizado cada profesional y el que ha recibido cada persona. Se necesita de manera rápida y eficiente consultar el número de horas mensuales.</ul>
+  <ul>Registrar el número y el tipo de talleres, quién los impartió y quiénes lo recibieron del servicio de promoción de la salud</ul>
 </li>
