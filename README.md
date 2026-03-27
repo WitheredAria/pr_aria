@@ -206,3 +206,7 @@ Mientras que mi compañero se ocupará del backend, <b>yo me centraré en el fro
   <li>Una interfaz de formulario para seleccionar el servicio, la actividad.</li>
   <li>Guardar un listado con las actividades de cada proyecto.</li>
 </ul>
+<br>
+<b>27 de marzo, 2026</b>
+<br>
+Comencé y terminé un curso básico de CSS y otro de maquetación web con CSS.
