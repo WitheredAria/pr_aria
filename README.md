@@ -210,3 +210,7 @@ Mientras que mi compañero se ocupará del backend, <b>yo me centraré en el fro
 <b>27 de marzo, 2026</b>
 <br>
 Comencé y terminé un curso básico de CSS y otro de maquetación web con CSS.
+<br>
+<b>6 de abril, 2026</b>
+<br>
+Comencé el curso de Bootstrap 5.
