@@ -214,3 +214,10 @@ Comencé y terminé un curso básico de CSS y otro de maquetación web con CSS.
 <b>6 de abril, 2026</b>
 <br>
 Comencé el curso de Bootstrap 5.
+<br>
+<b>7 de abril, 2026</b>
+<br>
+Seguí con el curso de Bootstrap 5. Mañana lo termino.
+<br>
+<b>8 de abril, 2026</b>
+<br>
