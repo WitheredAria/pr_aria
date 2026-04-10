@@ -217,7 +217,14 @@ Comencé el curso de Bootstrap 5.
 <br>
 <b>7 de abril, 2026</b>
 <br>
-Seguí con el curso de Bootstrap 5. Mañana lo termino.
+Seguí con el curso de Bootstrap 5.
 <br>
 <b>8 de abril, 2026</b>
 <br>
+Continué con el curso de Bootstrap 5.
+<br>
+<b>9 de abril, 2026</b>
+Enfermé. Seguí con el curso desde casa.
+<br>
+<b>10 de abril, 2026</b>
+Terminé el curso y todos los que me había propuesto para mejorar mis aptitudes.
