@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+
+</head>
+<body>
+    <h1>Bootstrap</h1>
+    <h2>Botones</h2>
+    <h3>Botones normales</h3>
+    <button class="btn btn-primary">Botón primario</button>
+    <button class="btn btn-secondary">Botón secundario</button>
+    <button class="btn btn-success">Botón éxito</button>
+    <button class="btn btn-danger">Botón peligro</button>
+    <button class="btn btn-warning">Botón advertencia</button>
+    <button class="btn btn-info">Botón informativo</button>
+    <button class="btn btn-light">Botón luminoso</button>
+    <button class="btn btn-dark">Botón oscuro</button>
+    <button class="btn btn-link">Botón enlace</button>
+    <br><br>
+    <h3>Botones con trazo</h3>
+    <button class="btn btn-outline-primary">Botón primario</button>
+    <button class="btn btn-outline-secondary">Botón secundario</button>
+    <button class="btn btn-outline-success">Botón éxito</button>
+    <button class="btn btn-outline-danger">Botón peligro</button>
+    <button class="btn btn-outline-warning">Botón advertencia</button>
+    <button class="btn btn-outline-info">Botón informativo</button>
+    <button class="btn btn-outline-light">Botón luminoso</button>
+    <button class="btn btn-outline-dark">Botón oscuro pequeño</button>
+    <button class="btn btn-outline-link">Botón enlace</button>
+    <br><br>
+    <h3>Diferencias de tamaño</h3>
+    <button class="btn btn-primary btn-sm">Botón primario</button>
+    <button class="btn btn-primary">Botón primario</button>
+    <button class="btn btn-primary btn-lg">Botón primario</button>
+    <br><br>
+    <h3>Botones agrupados</h3>
+    <div class="btn-group">
+        <button class="btn btn-primary">Botón primario</button>
+    <button class="btn btn-secondary">Botón secundario</button>
+    <button class="btn btn-success">Botón éxito</button>
+    </div>
+    <br><br>
+    <div class="btn-group">
+        <input type="checkbox" class="btn-check" id="btncheck1">
+        <label class="btn btn-outline-primary" for="btncheck1">Botón primario</label>
+        <input type="checkbox" class="btn-check" id="btncheck2">
+        <label class="btn btn-outline-success" for="btncheck2">Botón éxito</label>
+    </div>
+    <br><br>
+    <h2>Alertas</h2>
+    <div class="alert alert-primary">Alerta</div>
+    <div class="alert alert-secondary">Alerta</div>
+    <div class="alert alert-success">Alerta</div>
+    <h3>Contenido</h3>
+    <div class="alert alert-primary show fade" id="myAlert">
+        <h4 class="alert-heading">Título</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <p>Lorem ipsum dolor sit amet consectetur, adipiscing elit.</p>
+    </div>
+    <br><br>
+    <h2>Medalla</h2>
+    <button class="btn btn-primary">
+        Mensaje <span class="badge text-bg-danger rounded-pill">3</span>
+    </button>
+    <br><br>
+    <h2>Grupos de listas</h2>
+    <ul class="list-group" id="myTab">
+        <li class="list-group-item active">
+            Primero
+        </li>
+        <li class="list-group-item">
+            Segundo
+        </li>
+        <li class="list-group-item disabled">
+            Tercero
+        </li>
+        <li class="list-group-item">
+            Cuarto
+        </li>
+    </ul>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        const myTab = document.getElementById('myTab')
+        myTab.addEventListener('show.bs.tab', event => {
+            console.log('show')
+        })
+        myTab.addEventListener('hide.bs.tab', event => {
+            console.log('cerrado')
+        })
+        myTab.addEventListener('hidden.bs.alert', event => {
+            console.log('cerrado con closed')
+        })
+
+        const myTabI = bootstrap.Tab.getOrCreateInstance('#myTab')
+        const myTabIItem = bootstrap.Tab.getOrCreateInstance(myTabI._getChildren()[1])
+        //myTabIItem.show()
+        //myAlertI.close()
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
+
+/*Nav*/
+
+nav#mainNav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom: 1px solid transparent;
+    background: white;
+}
+
+nav#mainNav a {
+    color: black !important;
+}
+
+header#mainHeader {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    nav#mainNav {
+        background: transparent !important;
+    }
+    nav#mainNav a {
+        color: white !important;
+    }
+}
+
+/*Categorías*/
+.categoria-lista i {
+    color: rgb(132, 64, 227);
+}
+
+.categoria-lista .card {
+    height: 100%;
+    margin-top: 5px;
+    transition: .2s;
+}
+
+.categoria-lista a {
+    text-decoration: none;
+    color: black;
+}
+
+.categoria-lista .card:hover {
+    color: white;
+    background: rgb(132, 64, 227);
+}
+
+.categoria-lista .card:hover i,
+.categoria-lista .card:hover a {
+    color: white;
+}

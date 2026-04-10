@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    
+    <h1>Flex base</h1>
+    <div>
+        <div class="bg-success border p-3">1</div>
+        <div class="bg-success border p-3">2</div>
+        <div class="bg-success border p-3">3</div>
+        <div class="bg-success border p-3">4</div>
+    </div>
+    <br><br>
+    <div class="d-flex">
+        <div class="bg-success border p-3">1</div>
+        <div class="bg-success border p-3">2</div>
+        <div class="bg-success border p-3">3</div>
+        <div class="bg-success border p-3">4</div>
+    </div>
+    <br><br>
+    <div class="d-flex flex-row">
+        <div class="bg-success border p-3">1</div>
+        <div class="bg-success border p-3">2</div>
+        <div class="bg-success border p-3">3</div>
+        <div class="bg-success border p-3">4</div>
+    </div>
+    <br><br>
+    <div class="d-flex flex-row-reverse">
+        <div class="bg-success border p-3">1</div>
+        <div class="bg-success border p-3">2</div>
+        <div class="bg-success border p-3">3</div>
+        <div class="bg-success border p-3">4</div>
+    </div>
+    <br><br>
+    <div class="d-flex flex-column">
+        <div class="bg-success border p-3">1</div>
+        <div class="bg-success border p-3">2</div>
+        <div class="bg-success border p-3">3</div>
+        <div class="bg-success border p-3">4</div>
+    </div>
+    <br><br>
+    <div class="d-flex flex-column-reverse">
+        <div class="bg-success border p-3">1</div>
+        <div class="bg-success border p-3">2</div>
+        <div class="bg-success border p-3">3</div>
+        <div class="bg-success border p-3">4</div>
+    </div>
+    
+    <br><br>
+    <h1>Wrap</h1>
+
+    <h3>Sin Wrap</h3>
+    <div class="d-flex bg-secondary">
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 1</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 2</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 3</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 4</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 1</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 2</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 3</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 4</div>
+    </div>
+
+    <h3>Con Wrap</h3>
+    <div class="d-flex flex-wrap bg-secondary">
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 1</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 2</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 3</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 4</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 1</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 2</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 3</div>
+        <div class="bg-success border p-3" style="width: 100px;">Content Flex 4</div>
+    </div>
+
+    <h1>Grow - Shrink</h1>
+
+    <div class="d-flex">
+        <div class="bg-success border p-3 flex-grow-1">Content Flex 1</div>
+        <div class="bg-success border p-3 flex-grow-0">Content Flex 2</div>
+        <div class="bg-success border p-3">Content Flex 3</div>
+    </div>
+    <br><br>
+    <div class="d-flex">
+        <div class="bg-success border p-3 flex-grow-1">Content Flex 1</div>
+        <div class="bg-success border p-3 flex-shrink-1">Content Flex 2</div>
+        <div class="bg-success border p-3">Content Flex 3</div>
+    </div>
+
+    <h1>Fill</h1>
+
+    <div class="d-flex">
+        <div class="bg-success border p-3 flex-fill">Content Flex 1</div>
+        <div class="bg-success border p-3">Content Flex 2</div>
+        <div class="bg-success border p-3">Content Flex 3</div>
+    </div>
+
+    <h1>Alineación</h1>
+
+    <h3>Align items</h3>
+
+    <div class="d-flex flex-wrap bg-secondary align-items-center" style="height: 100px;">
+        <div class="bg-success p-3">Content Flex 1</div>
+        <div class="bg-danger p-3 h-50">Content Flex 2</div>
+        <div class="bg-success p-3">Content Flex 1</div>
+        <div class="bg-danger p-3 h-50">Content Flex 2</div>
+    </div>
+
+    <h3>Align self</h3>
+
+    <div class="d-flex flex-wrap bg-secondary" style="height: 200px;">
+        <div class="bg-success p-3 align-self-start">align-self-start</div>
+        <div class="bg-danger p-3 align-self-end">align-self-end</div>
+        <div class="bg-success p-3 align-self-baseline">align-self-baseline</div>
+        <div class="bg-danger p-3 align-self-stretch">align-self-stretch</div>
+        <div class="bg-danger p-3 align-self-center">align-self-center</div>
+    </div>
+    
+    <h3>Justify</h3>
+
+    <div class="d-flex bg-secondary justify-content-evenly" style="height: 100px;">
+        <div class="bg-success p-3">Content Flex 1</div>
+        <div class="bg-danger p-3 h-50">Content Flex 2</div>
+        <div class="bg-success p-3">Content Flex 1</div>
+        <div class="bg-danger p-3 h-50">Content Flex 2</div>
+    </div>
+
+    <h3>Align content</h3>
+
+    <div class="d-flex flex-wrap bg-secondary align-content-around" style="height: 100px;">
+        <div class="bg-success p-3">Content Flex 1</div>
+        <div class="bg-danger p-3 h-50">Content Flex 2</div>
+        <div class="bg-success p-3">Content Flex 1</div>
+        <div class="bg-danger p-3 h-50">Content Flex 2</div>
+    </div>
+    
+</body>
+
+</html>
