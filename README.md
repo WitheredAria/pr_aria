@@ -225,9 +225,11 @@ Seguí con el curso de Bootstrap 5.
 Continué con el curso de Bootstrap 5.
 <br>
 <b>9 de abril, 2026</b>
+<br>
 Enfermé. Seguí con el curso desde casa.
 <br>
 <b>10 de abril, 2026</b>
+<br>
 Terminé el curso y todos los que me había propuesto para mejorar mis aptitudes.
 <br>
 <b>14 de abril, 2026</b>
