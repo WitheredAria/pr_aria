@@ -229,3 +229,7 @@ Enfermé. Seguí con el curso desde casa.
 <br>
 <b>10 de abril, 2026</b>
 Terminé el curso y todos los que me había propuesto para mejorar mis aptitudes.
+<br>
+<b>14 de abril, 2026</b>
+<br>
+He estado probando a añadir un botón para añadir una fila nueva a la tabla para no tener que estar añadiendo datos uno a uno. De momento no he conseguido implementarlo correctamente.
