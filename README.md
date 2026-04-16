@@ -235,3 +235,11 @@ Terminé el curso y todos los que me había propuesto para mejorar mis aptitudes
 <b>14 de abril, 2026</b>
 <br>
 He estado probando a añadir un botón para añadir una fila nueva a la tabla para no tener que estar añadiendo datos uno a uno. De momento no he conseguido implementarlo correctamente.
+<br>
+<b>15 de abril, 2026</b>
+<br>
+He cambiado el diseño de la página a petición de Nasser.
+<br>
+<b>16 de abril, 2026</b>
+<br>
+Estamos trabajando en vincular la página (frontend) con la base de datos (backend).
