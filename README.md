@@ -243,3 +243,6 @@ He cambiado el diseño de la página a petición de Nasser.
 <b>16 de abril, 2026</b>
 <br>
 Estamos trabajando en vincular la página (frontend) con la base de datos (backend).
+<br>
+<b>17 de abril, 2026</b>
+<br>
