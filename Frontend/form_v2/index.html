@@ -23,7 +23,7 @@
                 <ul class="nav nav-tabs justify-content-end">
                     <li class="nav-item">
                         <a href="#" class="nav-link active">
-                            <input id="fecha" name="fecha" class="form-control" type="date">
+                            <input class="form-control" id="fecha" name="fecha" type="date">
                         </a>
                     </li>
                 </ul>
@@ -41,11 +41,11 @@
                                         <p>Usuario: </p>
                                     </th>
                                     <th scope="row">
-                                        <select style="width: 150px;" class="form-select" name="id_profesional" id="id_profesional" form="select">
-                                            <option selected>Seleccionar</option>
-                                            <option value="1">Name1</option>
+                                        <select style="width: 150px;" class="form-select" name="id_usuario" id="id_usuario" form="select">
+                                            <option value="">Seleccionar</option>
+                                            <!-- <option value="1">Name1</option>
                                             <option value="2">Name2</option>
-                                            <option value="3">Name3</option>
+                                            <option value="3">Name3</option> -->
                                         </select>
                                     </th>
                                     <th scope="row">
@@ -55,16 +55,7 @@
                                         <div class="cs-form">
                                             <div class="input-group" style="width: 150px;">
                                                 <input class="form-control" style="width: 90px;" type="time" id="horaInicio" value="08:00" min="08:00" max="15:00" required>
-                                                <span class="input-group-text">
-                                                    <i class="bi bi-clock"></i>
-                                                </span>
                                             </div>
-                                            <!-- <div class="input-group log-event" style="width: 150px;" id="datetimepicker1" data-td-target-input="nearest" data-td-target-toggle="nearest">
-                                                <input type="horaFin" type="text" class="form-control" data-td-target="#datetimepicker1">
-                                                <span class="input-group-text" data-td-target="#datetimepicker1" data-td-toggle="datetimepicker">
-                                                    <i class="bi bi-clock"></i>
-                                                </span>
-                                            </div> -->
                                         </div>
                                     </th>
                                 </tr>
@@ -74,11 +65,11 @@
                                         <p>Servicio: </p>
                                     </th>
                                     <th scope="row">
-                                        <select style="width: 150px;" class="form-select" name="id_servicio id="id_servicio" form="select">
-                                            <option selected>Seleccionar</option>
-                                            <option value="1">Service1</option>
+                                        <select style="width: 150px;" class="form-select" name="id_servicio" id="id_servicio" form="select">
+                                            <option value="">Seleccionar</option>'
+                                            <!-- <option value="1">Service1</option>
                                             <option value="2">Service2</option>
-                                            <option value="3">Service3</option>
+                                            <option value="3">Service3</option> -->
                                         </select>
                                     </th>
                                     <th scope="row">
@@ -88,16 +79,7 @@
                                         <div class="cs-form">
                                             <div class="input-group" style="width: 150px;">
                                                 <input class="form-control" style="width: 90px;" type="time" id="horaFin" value="15:00" min="08:00" max="15:00" required>
-                                                <span class="input-group-text">
-                                                    <i class="bi bi-clock"></i>
-                                                </span>
                                             </div>
-                                            <!-- <div class="input-group log-event" style="width: 150px;" id="datetimepicker2" data-td-target-input="nearest" data-td-target-toggle="nearest">
-                                                <input type="horaFin" type="text" class="form-control" data-td-target="#datetimepicker2">
-                                                <span class="input-group-text" data-td-target="#datetimepicker2" data-td-toggle="datetimepicker">
-                                                    <i class="bi bi-clock"></i>
-                                                </span>
-                                            </div> -->
                                         </div>
                                     </th>
                                 </tr>
@@ -105,28 +87,6 @@
                             </tbody>
 
                         </table>
-
-                        <!-- <p>Usuario:</p>
-                        <select name="id_profesional" id="id_profesional" class="form-select">
-                            <option selected>Seleccionar</option>
-                            <option value="1">Name1</option>
-                            <option value="2">Name2</option>
-                            <option value="3">Name3</option>
-                        </select>
-
-                        <p>Servicio:</p>
-                        <select name="id_servicio" id="id_servicio" class="form-select">
-                            <option selected>Seleccionar</option>
-                            <option value="1">Servicio1</option>
-                            <option value="2">Servicio2</option>
-                            <option value="3">Servicio3</option>
-                        </select>
-                        <br><br>
-                        <p>Hora inicio:</p>
-                        <input id="horaInicio" value="08:00">
-
-                        <p>Hora fin:</p>
-                        <input id="horaFin" value="15:00"> -->
 
                     </div>
 
@@ -150,7 +110,7 @@
                                 </div>
                                 <div class="modal-footer">
                                     <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                    <button class="btn btn-success">Guardar cambios</button>
+                                    <button class="btn btn-success" type="submit">Guardar cambios</button>
                                 </div>
                             </div>
                         </div>
@@ -164,12 +124,9 @@
     </section>
 
 
-    <script src="script.js"></script>
-    <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha256-BRqBN7dYgABqtY9Hd4ynE+1slnEw+roEPFzQ7TRRfcg=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.9.4/dist/js/tempus-dominus.min.js" crossorigin="anonymous"></script> -->
-
+    <script src="script.js" defer></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
 </body>
 
 </html>
