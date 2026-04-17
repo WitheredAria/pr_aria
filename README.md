@@ -246,3 +246,4 @@ Estamos trabajando en vincular la página (frontend) con la base de datos (backe
 <br>
 <b>17 de abril, 2026</b>
 <br>
+Hemos conseguido vincular los datos del frontend con el backend haciendo uso de un script de JS para que recoja los datos de la base de datos y los coloque en un desplegable automáticamente al cargar la página.
