@@ -1,4 +1,22 @@
+console.log("El archivo main.js se ha cargado correctamente");
+
+document.addEventListener('submit', (e) => {
+    console.log("¡Se ha detectado un envío de formulario!");
+});
+
 document.getElementById('fecha').valueAsDate = new Date();
+
+/* fetch('get_user_info.php')
+.then(response => response.json())
+.then(data => {
+    if (data.logged_in) {
+        document.getElementById('welcome').textContent = `Hola, ${data.nombre}.`;
+    } else {
+        window.location.href = 'index.html';
+    }
+})
+.catch(error => console.error('Error:', error)); */
+
 
 // 1. Configuración: La IP de tu servidor Ubuntu
 const API_BASE = 'http://173.16.0.27/coordicanarias/api';
@@ -88,4 +106,37 @@ document.addEventListener('DOMContentLoaded', () => {
     cargarUsuarios();
     cargarServiciosGenerales();
     // Aquí podrías añadir también cargarProfesionales();
+});
+
+
+//sessionStorage.setItem('id_profesional', id_introducida_por_el_usuario);
+
+document.getElementById('formActuacion').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    console.log("Enviando...");
+
+    const datos = {
+        id_profesional: sessionStorage.getItem('id_profesional'),
+        id_usuario: document.getElementById('id_usuario').value,
+        id_servicio: document.getElementById('id_servicio').value,
+        fecha: document.getElementById('fecha').value,
+        horaInicio: document.getElementById('horaInicio').value,
+        horaFin: document.getElementById('horaFin').value
+    };
+
+    const res = await fetch('http://173.16.0.27/coordicanarias/api/crear_actuacion.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(datos)
+    });
+
+    const respuestaTexto = await res.text(); // Leemos TODO lo que diga el PHP
+    console.log("RESPUESTA DEL SERVIDOR:", respuestaTexto);
+    
+    try {
+        const respuestaJson = JSON.parse(respuestaTexto);
+        alert(respuestaJson.message);
+    } catch (err) {
+        alert("El PHP devolvió un error de código. Mira la consola.");
+    }
 });

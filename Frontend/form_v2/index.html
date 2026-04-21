@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola, usuario</title>
+    <title>Hola, usuaria</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -16,7 +16,7 @@
 
         <!--Div-->
         <div class="container align-content-center">
-            <h1 class="justify-content-start">Hola, usuaria</h1>
+            <h1 id="welcome" class="justify-content-start">Hola, usuaria</h1>
 
             <div class="container">
                 
@@ -109,8 +109,10 @@
                                     </p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                                    <button class="btn btn-success" type="submit">Guardar cambios</button>
+                                    <form id="formActuacion">
+                                        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <button class="btn btn-success" type="submit" data-bs-dismiss="modal">Guardar cambios</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +126,7 @@
     </section>
 
 
-    <script src="script.js" defer></script>
+    <script src="script2.js"></script>
     <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js" defer></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
 </body>

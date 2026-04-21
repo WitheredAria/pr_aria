@@ -1,6 +1,5 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 @import "../node_modules/bootstrap-icons/font/bootstrap-icons.min.css";
-@import "https://cdn.jsdelivr.net/npm/@eonasdan/tempus-dominus@6.9.4/dist/css/tempus-dominus.min.css";
 
 #selectInline {
     display: inline-block;
@@ -13,8 +12,3 @@
     vertical-align: center;
     line-height: 28px;
 }
-
-/* #horaInicio,
-#horaFin {
-
-} */
