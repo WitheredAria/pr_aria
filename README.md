@@ -247,3 +247,10 @@ Estamos trabajando en vincular la página (frontend) con la base de datos (backe
 <b>17 de abril, 2026</b>
 <br>
 Hemos conseguido vincular los datos del frontend con el backend haciendo uso de un script de JS para que recoja los datos de la base de datos y los coloque en un desplegable automáticamente al cargar la página.
+<br>
+<b>20 de abril, 2026</b>
+<br>
+Hemos estado toda la jornada buscando la forma de, una vez rellenado los datos del formulario, enviarlos a la base de datos.
+<br>
+<b>21 de abril, 2026</b>
+<br>
