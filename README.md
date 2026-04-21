@@ -254,3 +254,4 @@ Hemos estado toda la jornada buscando la forma de, una vez rellenado los datos d
 <br>
 <b>21 de abril, 2026</b>
 <br>
+Hemos estado haciendo pruebas de envíos de formulario con los datos vinculados exclusivos al id del profesional.
