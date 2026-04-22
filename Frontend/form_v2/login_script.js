@@ -1,17 +1,34 @@
-const API_BASE = 'http://173.16.0.27/coordicanarias/api';
+document.getElementById('btnLogin').addEventListener('click', async (e) => {
+    e.preventDefault(); // Evitamos que la página se recargue
 
-/* const id = document.getElementById('userID').value;
+    const idBuscado = document.getElementById('userID').value;
+    const url = 'http://173.16.0.27/coordicanarias/api/get_profesionales.php';
 
-fetch('http://173.16.0.27/coordicanarias/api/get_profesionales.php', {
-    method: 'POST',
-    body: JSON.stringify({ id: id }),
-    headers: { 'Content-Type': 'application/json' }
-})
-.then(res => res.json())
-.then(data => {
-    if (data.status === "success") {
-        window.location.href = 'index.html';
-    } else {
-        alert(data.message);
+    try {
+        const response = await fetch(url);
+        const resultado = await response.json();
+
+        // Según el JSON, la lista está en 'resultado.data'
+        const listaProfesionales = resultado.data;
+
+        // Buscamos en el array el profesional que tenga ese id_profesional
+        // Usamos == para comparar porque el input es string y el ID puede ser número
+        const usuarioEncontrado = listaProfesionales.find(p => p.id_profesional == idBuscado);
+
+        if (usuarioEncontrado) {
+            console.log("¡Usuario encontrado!", usuarioEncontrado);
+            
+            // Guardamos el nombre en LocalStorage
+            localStorage.setItem('usuarioNombre', usuarioEncontrado.nombre);
+            
+            // Saltamos a la siguiente página
+            window.location.href = 'index.html';
+        } else {
+            alert("El ID " + idBuscado + " no existe en la base de datos.");
+        }
+
+    } catch (error) {
+        console.error("Error en la petición:", error);
+        alert("No se pudo conectar con el servidor.");
     }
-}); */
+});

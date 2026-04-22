@@ -1,9 +1,22 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const nombre = localStorage.getItem('usuarioNombre');
+    const h1 = document.querySelector('h1');
+    const title = document.querySelector('title');
+    
+    if (nombre && h1) {
+        h1.textContent = `Hola, ${nombre}.`;
+    }
+    if (nombre && title) {
+        title.textContent = ``;
+    }
+});
+
 document.getElementById('fecha').valueAsDate = new Date();
 
 // 1. La función que pide los datos y rellena los huecos
 async function cargarDatosLuna() {
     const ID_LUNA = 30; // El ID que estamos simulando
-    console.log("🚀 Iniciando carga automática para Luna (ID 30)...");
+    console.log("Iniciando carga automática para Luna (ID 30)...");
 
     try {
         // Llamada a la API
@@ -12,12 +25,12 @@ async function cargarDatosLuna() {
         if (!response.ok) throw new Error("No se pudo contactar con la API");
 
         const res = await response.json();
-        console.log("📦 Datos de Luna recibidos:", res);
+        console.log("Datos de Luna recibidos:", res);
 
         if (res.status === "success") {
             const { servicios, usuarios } = res.datos || res.data;
 
-            // Buscamos los únicos dos selectores que existen en tu HTML
+            // Buscamos los únicos dos selectores que existen en el HTML
             const selectServicio = document.getElementById('id_servicio');
             const selectUsuario = document.getElementById('id_usuario');
 
@@ -30,7 +43,7 @@ async function cargarDatosLuna() {
                     opt.textContent = s.nombre;
                     selectServicio.appendChild(opt);
                 });
-                console.log("✅ Servicios de Rehabilitación cargados.");
+                console.log("Servicios de Rehabilitación cargados.");
             }
 
             // Rellenamos Usuarios
@@ -42,7 +55,7 @@ async function cargarDatosLuna() {
                     opt.textContent = `${u.nombre} ${u.apellidos}`;
                     selectUsuario.appendChild(opt);
                 });
-                console.log("✅ Usuarios de Luna cargados.");
+                console.log("Usuarios de Luna cargados.");
             }
         }
     } catch (error) {
