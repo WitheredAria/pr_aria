@@ -255,3 +255,7 @@ Hemos estado toda la jornada buscando la forma de, una vez rellenado los datos d
 <b>21 de abril, 2026</b>
 <br>
 Hemos estado haciendo pruebas de envíos de formulario con los datos vinculados exclusivos al id del profesional.
+<br>
+<b>22 de abril, 2026</b>
+<br>
+He implementado el script para la página de inicio de sesión. Ahora, cuando el usuario introduce su ID y pulsa el botón, la siguiente página le saluda por su nombre.
