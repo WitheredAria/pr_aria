@@ -259,3 +259,7 @@ Hemos estado haciendo pruebas de envíos de formulario con los datos vinculados 
 <b>22 de abril, 2026</b>
 <br>
 He implementado el script para la página de inicio de sesión. Ahora, cuando el usuario introduce su ID y pulsa el botón, la siguiente página le saluda por su nombre.
+<br>
+<b>23 de abril, 2026</b>
+<br>
+He estado trabajando desde casa revisando código. He repasado partes del curso de Asincronía con JS.
