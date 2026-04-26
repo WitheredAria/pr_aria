@@ -263,3 +263,7 @@ He implementado el script para la página de inicio de sesión. Ahora, cuando el
 <b>23 de abril, 2026</b>
 <br>
 He estado trabajando desde casa revisando código. He repasado partes del curso de Asincronía con JS.
+<br>
+<b>24 de abril, 2026</b>
+<br>
+Trabajando desde casa revisando código y repasando cursos.
