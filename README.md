@@ -267,3 +267,7 @@ He estado trabajando desde casa revisando código. He repasado partes del curso 
 <b>24 de abril, 2026</b>
 <br>
 Trabajando desde casa revisando código y repasando cursos.
+<br>
+<b>28 de abril, 2026</b>
+<br>
+Seguí repasando cursos. Hice un resumen de lo que el frontend hace y se lo mandé a Nasser. No pude progresar demasiado sin el backend de mi compañero ya que hoy tenía que ir a clase.
