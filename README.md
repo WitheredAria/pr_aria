@@ -271,3 +271,14 @@ Trabajando desde casa revisando código y repasando cursos.
 <b>28 de abril, 2026</b>
 <br>
 Seguí repasando cursos. Hice un resumen de lo que el frontend hace y se lo mandé a Nasser. No pude progresar demasiado sin el backend de mi compañero ya que hoy tenía que ir a clase.
+<br>
+<b>29 de abril, 2026</b>
+<br>
+No avancé más de lo que había hecho estos días ya que no había nada más que hacer. Empecé cursos nuevos en OpenWebinars por tener algo que estudiar.
+<br>
+<b>30 de abril, 2026</b>
+<br>
+Seguí estudiando en OpenWebinars.
+<br>
+<b>5 de mayo, 2026</b>
+<br>
