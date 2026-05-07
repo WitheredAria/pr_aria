@@ -283,3 +283,7 @@ Seguí estudiando en OpenWebinars.
 <b>5 de mayo, 2026</b>
 <br>
 Hemos presentado a Nasser el proyecto de formulario y nos ha dado la enhorabuena.
+<br>
+<b>7 de mayo, 2026</b>
+<br>
+Se nos ha propuesto crear una página nueva añadida a la de formulario para poder ver un listado de todas las entradas creadas, además de añadir una barra lateral para navegar por dichas páginas.
