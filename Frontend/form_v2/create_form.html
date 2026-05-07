@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="welcome">Hola, usuaria</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <nav class="nav flex-column">
+            <a href="list.html" class="nav-link">
+                <span class="icon">
+                    <i class="bi-file-earmark-text"></i>
+                </span>
+                <span class="description">Listado</span>
+            </a>
+            <a href="create_form.html" class="nav-link">
+                <span class="icon">
+                    <i class="bi-file-earmark-plus"></i>
+                </span>
+                <span class="description">Crear formulario</span>
+            </a>
+        </nav>
+    </div>
+    
+    <!--Sección con padding-->
+    <section class="main-content">
+
+        <!--Div-->
+        <div class="container align-content-center">
+            <h1 id="welcome" class="justify-content-start">Cargando...</h1>
+
+            <div class="container">
+                
+                <ul class="nav nav-tabs justify-content-end">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active">
+                            <input class="form-control" id="fecha" name="fecha" type="date">
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="card">
+
+                    <div class="card-body" id="selectInline">
+                        
+                        <table id="formTable" class="table table-borderless">
+
+                            <tbody>
+
+                                <tr>
+                                    <th scope="row">
+                                        <p>Usuario: </p>
+                                    </th>
+                                    <th scope="row">
+                                        <select style="width: 150px;" class="form-select" name="id_usuario" id="id_usuario" form="select">
+                                            <option value="">Seleccionar</option>
+                                            <!-- <option value="1">Name1</option>
+                                            <option value="2">Name2</option>
+                                            <option value="3">Name3</option> -->
+                                        </select>
+                                    </th>
+                                    <th scope="row">
+                                        <p>Hora inicio: </p>
+                                    </th>
+                                    <th scope="row">
+                                        <div class="cs-form">
+                                            <div class="input-group" style="width: 150px;">
+                                                <input class="form-control" style="width: 90px;" type="time" id="horaInicio" value="08:00" min="08:00" max="15:00" required>
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">
+                                        <p>Servicio: </p>
+                                    </th>
+                                    <th scope="row">
+                                        <select style="width: 150px;" class="form-select" name="id_servicio" id="id_servicio" form="select">
+                                            <option value="">Seleccionar</option>'
+                                            <!-- <option value="1">Service1</option>
+                                            <option value="2">Service2</option>
+                                            <option value="3">Service3</option> -->
+                                        </select>
+                                    </th>
+                                    <th scope="row">
+                                        <p>Hora fin: </p>
+                                    </th>
+                                    <th scope="row">
+                                        <div class="cs-form">
+                                            <div class="input-group" style="width: 150px;">
+                                                <input class="form-control" style="width: 90px;" type="time" id="horaFin" value="15:00" min="08:00" max="15:00" required>
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                    <div class="card-footer">
+                        <button id="btnSave" class="btn btn-outline-success float-end" data-bs-toggle="modal" data-bs-target="#saveChanges">
+                            Guardar
+                        </button>
+                    </div>
+
+                    <div id="saveChanges" class="modal fade" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title">Aviso</h1>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        ¿Estás seguro de que deseas guardar los cambios?
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <form id="formActuacion">
+                                        <button class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <button class="btn btn-success" type="submit" data-bs-dismiss="modal">Guardar cambios</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="form_script.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</body>
+
+</html>

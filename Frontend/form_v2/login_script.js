@@ -23,7 +23,7 @@ document.getElementById('btnLogin').addEventListener('click', async (e) => {
             localStorage.setItem('usuarioID', usuarioEncontrado.id_profesional);
             
             // Salta a la siguiente página
-            window.location.href = 'index.html';
+            window.location.href = 'list.html';
         } else {
             alert("El ID " + idBuscado + " no existe en la base de datos.");
         }
