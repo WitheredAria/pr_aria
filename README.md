@@ -284,6 +284,14 @@ Seguí estudiando en OpenWebinars.
 <br>
 Hemos presentado a Nasser el proyecto de formulario y nos ha dado la enhorabuena.
 <br>
+<b>6 de mayo, 2026</b>
+<br>
+Visto que no teníamos nada que hacer para hoy, seguí adelantando contenido de clases.
+<br>
 <b>7 de mayo, 2026</b>
 <br>
 Se nos ha propuesto crear una página nueva añadida a la de formulario para poder ver un listado de todas las entradas creadas, además de añadir una barra lateral para navegar por dichas páginas.
+<br>
+<b>12 de mayo, 2026</b>
+<br>
+Hoy mi compañero tiene asistencia a clase. Diseñé la barra lateral para ambas páginas y he empezado el diseño del listado de entradas.
