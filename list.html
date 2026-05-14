@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="listTitle">Mis registros</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <nav class="nav flex-column">
+            <a href="list.html" class="nav-link">
+                <span class="icon">
+                    <i class="bi-file-earmark-text"></i>
+                </span>
+                <span class="description">Listado</span>
+            </a>
+            <a href="create_form.html" class="nav-link">
+                <span class="icon">
+                    <i class="bi-file-earmark-plus"></i>
+                </span>
+                <span class="description">Crear formulario</span>
+            </a>
+        </nav>
+    </div>
+
+    <!--Sección con padding-->
+    <section class="main-content">
+
+        <!--Div-->
+        <div class="container align-content-center">
+            <h1 id="listGreeting" class="justify-content-start">Cargando...</h1>
+
+            <div class="card shadow-sm">
+                <div class="card-header bg-white">
+                    <h5 class="mb-0">Mis Actuaciones Registradas</h5>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Fecha</th>
+                                    <th>Usuario</th>
+                                    <th>Servicio</th>
+                                    <th>Horario</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyActuaciones">
+                                </tbody>
+                        </table>
+                    </div>
+                    <div id="mensajeVacio" class="text-center p-4 d-none">
+                        <p class="text-muted">No se han encontrado registros.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="list_script.js"></script>
+    <script src="../node_modules/@popperjs/core/dist/umd/popper-base.min.js" defer></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+</body>
+
+</html>
