@@ -295,3 +295,11 @@ Se nos ha propuesto crear una página nueva añadida a la de formulario para pod
 <b>12 de mayo, 2026</b>
 <br>
 Hoy mi compañero tiene asistencia a clase. Diseñé la barra lateral para ambas páginas y he empezado el diseño del listado de entradas.
+<br>
+<b>13 de mayo, 2026</b>
+<br>
+He desarrollado el script para el listado de registros y terminado los retoques finales del diseño del listado.
+<br>
+<b>14 de mayo, 2026</b>
+<br>
+Mi compañero y yo hemos terminado lo que se nos ha pedido. Además, hemos retocado el listado de registros para que solo aparezcan las entradas que ha hecho cada profesional en lugar de todas las entradas.
